@@ -2,19 +2,19 @@
 
 Tools
 
-HTML
+-HTML
 
-JavaScript
+-JavaScript
 
-Ajax 
+-Ajax 
 
-Axios
+-Axios
 
-jQuery 
+-jQuery 
 
-Giphy API 
+-Giphy API 
 
-Bootswatch quartz theme 
+-Bootswatch quartz theme 
 
 
 Thanks!
