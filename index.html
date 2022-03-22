@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Giphy Party!</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/quartz/bootstrap.min.css">
+    <!-- added quartz bootswatch theme as per the application-->
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center mt-4 mb-4 text-danger">GIPHY PARTY</h1><!-- title of site -->
+
+        <form class="form-inline d-flex justify-content-center mb-4">
+            <!-- addind search field -->
+            <input type="text" id="search" name="search" placeholder="Enter a search term" class="form-control mr-2" />
+            <!-- addind search button -->
+            <input type="submit" class="btn btn-info" value="Search Giphy!" />
+            <!-- addind remove button -->
+            <button id="remove" class="btn btn-danger ml-2">Remove Images</button>
+
+        </form>
+        <div id="gif-area" class="row">
+
+        </div> <!-- footnote -->
+        <h3>
+            <p class="text-center mt-4 mb-4 text-danger">A party without a GIF is just a meeting.</p>
+        </h3>
+    </div>
+    <!-- below is the jQuery source, axios package and app.js script-->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
